@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to Kakao Clone</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div id="status-bar">
+    <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
         <!-- To Do: Wifi Icon -->
@@ -20,26 +21,26 @@
         <span>11%</span>
         <!-- To Do: Battery Icon -->
         <!-- Lightning Icon -->
-        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-battery-full fa-lg"></i>
         <i class="fas fa-bolt"></i>
       </div>
-
-      <header class="'welcome-header">
-        <h1 class="welcome-header__title">Welcome to Kakao Clone</h1>
-        <p class="welcome-header__text">
-          If you have a Kakao clone Account, log in with your email or phone
-          number.
-        </p>
-      </header>
-
-      <form id="login-form">
-        <input type="text" placeholder="Email or phone number" name="" />
-        <input type="password" placeholder="Password" />
-        <input type="submit" value="Log in" />
-        <input type="submit" value="Sign up" />
-        <a href="#">Find Account</a>
-      </form>
     </div>
+    <header class="'welcome-header">
+      <h1 class="welcome-header__title">Welcome to Kakao Clone</h1>
+      <p class="welcome-header__text">
+        If you have a Kakao clone Account, log in with your email or phone
+        number.
+      </p>
+    </header>
+
+    <form id="login-form">
+      <input type="text" placeholder="Email or phone number" name="" />
+      <input type="password" placeholder="Password" />
+      <input type="submit" value="Log in" />
+      <input type="submit" value="Sign up" />
+      <a href="#">Find Account</a>
+    </form>
+
     <script
       src="https://kit.fontawesome.com/200b144238.js"
       crossorigin="anonymous"
