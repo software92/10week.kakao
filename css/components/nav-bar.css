@@ -13,4 +13,26 @@
 }
 .nav__a {
   color: #2e363e;
+  position: relative;
+}
+
+.nav__notification {
+  background-color: tomato;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  top: -25px;
+  right: -15px;
+}
+.nav__btn:last-child .nav__notification {
+  width: 10px;
+  height: 10px;
+  top: -15px;
+  right: -10px;
 }
