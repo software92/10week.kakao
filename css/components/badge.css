@@ -14,3 +14,13 @@
   width: 5px;
   height: 5px;
 }
+
+.badge--reverse {
+  border: 2px solid tomato;
+  color: tomato;
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  border-radius: 50%;
+  font-weight: 600;
+}
